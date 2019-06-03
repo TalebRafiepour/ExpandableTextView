@@ -18,7 +18,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.TalebRafiepour:ExpandableTextView:Tag'
+	        implementation 'com.github.TalebRafiepour:ExpandableTextView:1.0.0'
 	}
 ```
 
