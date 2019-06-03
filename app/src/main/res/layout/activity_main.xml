@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity">
+
+    <com.taleb.expndbltxtview.ExpandableTextView android:layout_width="wrap_content"
+                                                 android:layout_height="wrap_content"
+                                                 android:text="@string/sample_text"
+                                                 android:maxLines="2"
+                                                 android:layout_gravity="top"
+                                                 android:layout_margin="12dp"
+                                                 app:animation_duration="500"
+                                                 android:ellipsize="end"
+                                                 android:id="@+id/expandableTextView"
+    app:font_asset_src="fonts/IRANSans(FaNum).ttf"/>
+
+</FrameLayout>
