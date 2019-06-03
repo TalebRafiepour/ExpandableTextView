@@ -1,7 +1,7 @@
 # ExpandableTextView
 An extent of AppCompatTextView for handle expand and collapse texts
 
-#setup
+# setup
 
 Step 1. Add the JitPack repository to your build file
 
@@ -23,7 +23,7 @@ dependencies {
 ```
 
 
-#How to use
+# How to use
 
 ```
 <com.taleb.expndbltxtview.ExpandableTextView android:layout_width="wrap_content"
